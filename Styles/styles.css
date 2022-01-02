@@ -10,6 +10,8 @@ body, html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*navbar styling*/
+
 nav {
     background: black;
     z-index: 3;
@@ -103,9 +105,13 @@ nav ul li a {
     }
 }
 
+/*section styling for multiple pages*/
+
 section {
     text-align: center;
 }
+
+/*hero styling*/
 
 .hero-image {
     background-image: url("/Images/heroimg.jpg");
@@ -158,6 +164,8 @@ section {
     transition: .5s;
 }
 
+/*text styling */
+
 .about {
     font-size: 1.5em;
     padding: 30px;
@@ -166,9 +174,20 @@ section {
     max-width: 500px;
 }
 
+/*styling for images at the top of pages*/
+
+.topimg {
+    padding-top: 100px;
+    width: 100%;
+}
+
+/*styling for images are not at the top of pages*/
+
 .width {
     width: 100%;
 }
+
+/*anchor styling*/
 
 .linkbtn {
     text-align: center;
@@ -190,10 +209,8 @@ section {
     transition: .5s;
 }
 
-.topimg {
-    padding-top: 100px;
-    width: 100%;
-}
+
+/*styling for contact form*/
 
 form {
     margin-left: auto;
@@ -245,6 +262,9 @@ textarea {
     background: rgb(133, 0, 0);
     transition: .5s;
 }
+
+
+/*styling for multicolumn layout*/
 
 .columns {
     width: 100%;
