@@ -281,6 +281,7 @@ textarea {
     margin-right: auto;
 }
 
+
 @media screen and (max-width: 960px) {
     .columns {
         columns: 1;
@@ -293,10 +294,15 @@ textarea {
     }
 }
 
+/*styling for images on location pages*/
+
 .locationimg {
+    border-radius: 10px;
     padding-top: 100px;
     width: 60%;
 }
+
+/*styling for footer*/
 
 footer {
     background: black;
